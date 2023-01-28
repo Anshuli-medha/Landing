@@ -1,0 +1,346 @@
+@import url("variables.css");
+
+
+
+html {
+    box-sizing: border-box;
+}
+
+button {
+    border: none;
+    color: transparent;
+    background-color: transparent;
+ }
+
+
+ @media screen and (max-width: 991.9px ) {
+    ._ecomm_nav_mob{
+        display: block !important;
+    }
+    ._ecomm_nav_desktop{
+        display: none;
+    }
+    .navbar-nav{
+        height: 100vh;
+        flex-direction: column !important;
+        justify-content: flex-start !important;
+        overflow-y: auto;
+        padding-bottom: 120px;
+    }
+    .nav-item {
+        text-align: center;
+        padding: 20px;
+        border-top: 1px solid #FBD449;
+        border-bottom: 1px solid #FBD449;
+    }
+    .navbar{
+        flex-direction: row-reverse;
+        justify-content: center;
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0.5rem 1rem;
+        background-color: #e3f2fd;
+     }
+    .navbar-collapse{
+        flex-basis: 100%;
+        flex-grow: 1;
+        margin: 10px -15px 0px;
+        overflow-y: auto;
+    }
+    
+    .button-toggler {
+        position: absolute;
+        left: 15px;
+        top: 6px;
+    }
+    ._ecomm_btn {
+        position: relative;
+        height: 100vh;
+    }
+    .nav_btn_mob {
+        bottom: 0px;
+        position: fixed;
+        width: 100%;
+        background-color: #F2903D !important;
+        color: white !important;
+    }
+
+    /* ------banner------- */
+    ._ecomm_ban_image { 
+        height: calc(100vh - 40px) !important;
+    }
+    ._ecomm_banner_details {
+        top: 30% !important;
+        text-align: center !important;
+        margin: auto !important;
+    }
+
+    ._ecomm_ban_header{
+        margin: 10px 0px !important;
+    }
+    ._ecomm_ban_subheader {
+        margin: 10px 40px !important;
+        text-align: center !important;
+    }
+    ._ecomm_ban_info {
+        margin: 20px 40px !important;
+    }
+
+    /* -----ecomm-slider */
+    ._ecomm_slider {
+        margin-top: 20px !important;
+    }
+
+    /* -----ecomm-body */
+    ._ecomm_body{
+        margin-top: 20px;
+    }
+
+    .card_sol img {
+        height: 100% !important;
+        width: 94vw !important;
+    }
+    ._ecomm_input input {
+        border: none;
+        background-color: #FBD449; 
+        width: 100%;
+        height: 40px;
+        font-size: 1rem !important;
+    }
+    ._ecomm_footer {
+        height: calc(100vh - 350px) !important;
+        background-color: #FBD449;
+        margin-bottom: 20px !important;
+    }
+    ._ecom_foot_desk {
+        display: none !important;
+    }
+    ._ecom_foot_mob{
+        display: block !important;
+    }
+}
+
+
+
+._ecomm_header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 99;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+._ecomm_nav_desktop{
+    padding: 30px 0px;
+    background-color: #e3f2fd;
+}
+.navbar-nav {
+    display: flex !important;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.nav-button {
+    padding: 10px 30px;
+    color: #774E1A;
+    background-color: #FBD449;
+    border-radius: 5px;
+    margin-top: -5px;
+}
+
+.navbar-brand{
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 45% !important;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+
+#nav-collapse {
+    display: none;
+}
+.navbar-nav {
+    color:#774E1A;
+    font-weight:bolder;
+}
+
+
+._ecomm_brand {
+    margin: auto;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    z-index: 1;
+}
+
+
+/* -----banner------ */
+
+._ecomm_ban_image {
+    background-image: url("../assets/background.png");
+    height: 800px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+._ecomm_banner_details {
+    top: 30%;
+    text-align: center;
+    margin: 20px 200px;
+}
+
+._ecomm_ban_header{
+    margin: 10px 0px;
+}
+._ecomm_ban_subheader {
+    margin: 10px 0px;
+    text-align: center;
+}
+._ecomm_ban_info {
+    margin: 20px 50px;
+}
+
+
+/* -----ecommm card */
+
+.card {
+    margin: auto;
+}
+
+
+/* -----ecomm body */
+._ecomm_body{
+    margin-top: 100px;
+}
+
+.card_sol img {
+    height: 100%;
+    width: 100%;
+}
+.swiper-slide img {
+    height: 100%;
+    width: 100%;
+}
+
+.card_sol ._card_title {
+    border-left: 3px solid rgb(59, 38, 12);
+    border-bottom: 3px solid rgb(59, 38, 12);
+    border-right: 3px solid rgb(59, 38, 12);
+    border-radius: 0px 0px 5px 5px;
+}
+
+._ecomm_pack-details img {
+    height: 100%;
+    width: 100%;
+}
+
+._ecomm_teams_detail {
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+li {
+	list-style-type: none!important;
+}
+
+._pack_checklist ul {
+	margin-bottom: 20px;
+	margin-left: 10px;
+    list-style: url("../assets/tick.svg");
+    list-style-position: inside;
+}
+
+._ecomm_footer {
+    height: calc(100vh - 500px);
+    background-color: #FBD449;
+}
+
+._ecomm_input{
+    border-bottom: 1px solid #774E1A;
+}
+
+._ecomm_input input {
+    border: none;
+    background-color: #FBD449; 
+    width: 100%;
+    height: 40px;
+    font-size: 1.5rem;
+}
+._ecomm_input input:focus, ._ecomm_input input:hover, ._ecomm_input input:active {
+    border: none;
+    box-shadow: none;
+    outline: none;
+    font-size: 1.5rem;
+}
+
+.footer_btn_brown {
+    color: #774E1A;
+    background-color: #F2903D;
+    margin-left: -10px;
+}
+.no-outline:focus {
+    outline: none;
+  }
+
+.links {
+    margin: 10px 0px;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: 800;
+    color: #774E1A;
+}
+
+._ecom_foot_mob ul {
+    list-style: url("/assets/tick.svg");
+}
+._ecom_foot_desk{
+    padding-top: 30px;
+}
+._ecom_foot_desk ul {
+    text-align: center;
+    display: block;
+}
+._ecom_foot_mob{
+    display: none;
+}
+._ecom_foot_mob ul li {
+    font-size: medium;
+    color: #774E1A;
+}
+._ecom_foot_desk .links {
+    margin-left: 35px;
+}
+
+._ecom_foot_desk ul li {
+    font-size: large;
+    color: #774E1A;
+    line-height: 2rem;
+}
+
+.stciky-arrow {
+    position: fixed;
+    right: -5px;
+    bottom: 50px;
+}

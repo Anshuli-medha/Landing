@@ -1,0 +1,7 @@
+/* media query variables */
+:root{
+    --desktop: "(min-width: 991.8px)";
+    --tablet: "(min-width: 767.1px) and (max-width:991.9px)";
+    --ipad-pro: "(min-width: 992.1px) and (max-width:1279.9px)";
+    --mobile: "(max-width: 991.9px )";
+}

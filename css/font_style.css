@@ -1,0 +1,60 @@
+
+@media screen and (max-width: 991.9px ) { 
+    .font-header {
+        color: white;
+        font-size: 1rem !important;
+        text-transform: capitalize;
+    }
+
+    .font-subheader {
+        color: white;
+        font-size: 2rem !important;
+        line-height: 2rem !important;
+    }
+
+    .font-info {
+        color: white;
+        font-size: 1rem !important;
+        line-height: 1rem !important;
+    }
+    .font-subheader-one{
+        color: white;
+        font-size: 2rem !important;
+        line-height: 2rem !important;
+    }
+    .font-normal {
+        font-size: 0.8rem;
+    }
+}
+
+
+.font-header {
+    color: white;
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+
+.font-subheader {
+    color: white;
+    font-size: 4.5rem;
+    line-height: 4.5rem;
+}
+
+.font-subheader-one{
+    color: white;
+    font-size: 3rem ;
+    line-height: 3rem;
+}
+
+.font-info {
+    color: white;
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+.font--brown {
+    color: #774E1A;
+}
+.font-normal {
+    font-size: 1rem;
+}
+

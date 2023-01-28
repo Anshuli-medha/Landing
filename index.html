@@ -1,0 +1,427 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/hamburger.css">
+  <link rel="stylesheet" href="css/font_style.css">
+  <link rel="stylesheet" href="css/swipper.css">nk
+</head>
+
+<body>
+  <header class="_ecomm_header p-relative">
+    <!-- ecommerce mobile -->
+    <div class="d-none _ecomm_nav_mob">
+      <button class="nav-button nav_btn_mob">Click me</button>
+      <nav class="navbar">
+        <a href="#" class="navbar-brand"><img src="/assets/logo.png" alt="logo" srcset="" style="height:40px; width: 40px;"></a>
+        <button id="nav-icon" class="button-toggler" style="margin-top: 8px;">
+          <div id="hamburger-wrapper" class="">
+            <p class="burger"></p>
+          </div>
+        </button>
+      </nav>
+      <div id="nav-collapse" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+        <ul class="navbar-nav">
+          <li class="nav-item">Products</li>
+          <li class="nav-item">About us</li>
+          <li class="nav-item">FAQS</li>
+          <li class="nav-item">Contact Us</li>
+          <li class="nav-item">Gallery</li>
+          <li class="nav-item">Blogs</li>
+        </ul>
+      </div>
+    </div>
+    <!-- /ecommerce mobile -->
+    <!-- ecommerce desktop -->
+    <div class="_ecomm_nav_desktop">
+      <div class="container">
+        <div class="row">
+          <div class="col-2">
+            <a href="#" class="navbar-brand"><img src="/assets/logo.png" alt="logo" srcset="" style="margin-top: -35px;margin-bottom: -20px;"></a>
+          </div>
+          <div class="col-10">
+            <ul class="navbar-nav navbar_desktop">
+              <li class="nav-item">Products</li>
+              <li class="nav-item">About us</li>
+              <li class="nav-item">FAQS</li>
+              <li class="nav-item">Contact Us</li>
+              <li class="nav-item">Gallery</li>
+              <li class="nav-item">Blogs</li>
+              <li class="nav-item">
+                <button class="nav-button">Click me</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /ecommerce desktop -->
+  </header>
+  <main>
+    <section class="_ecomm_banner position-relative">
+      <div class="_ecomm_ban_image"></div>
+      <div class="_ecomm_banner_details position-absolute" data-aos="fade-up" data-aos-duration="1000">
+        <div class="_ecomm_ban_header font-header text-center">
+          LETS GET STARTED
+        </div>
+        <div class="text-center">
+          <div class="_ecomm_ban_subheader font-subheader">
+            Smart Partner For To Grow Your Best Business
+          </div>
+        </div>
+        <div class="_ecomm_ban_info font-info">
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+          laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+          architecto beatae vitae dicta sunt explicabo.
+        </div>
+        <button class="nav-button"> Get Quote</button>
+      </div>
+    </section>
+    <section class="_ecomm_slider position-relative mt-xl-5" data-aos="fade-up">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 swiper-container">
+            <div class="_ecomm-cards swiper-wrapper">
+              <div class="card swiper-slide" style="width: 18rem;">
+                <img src="/assets/cards.webp" alt="images" srcset="">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's
+                    content.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">An item</li>
+                  <li class="list-group-item">A second item</li>
+                  <li class="list-group-item">A third item</li>
+                </ul>
+                <div class="card-body">
+                  <a href="#" class="card-link">Card link</a>
+                  <a href="#" class="card-link">Another link</a>
+                </div>
+              </div>
+              <div class="card swiper-slide" style="width: 18rem;">
+                <img src="/assets/cards.webp" alt="images" srcset="">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's
+                    content.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">An item</li>
+                  <li class="list-group-item">A second item</li>
+                  <li class="list-group-item">A third item</li>
+                </ul>
+                <div class="card-body">
+                  <a href="#" class="card-link">Card link</a>
+                  <a href="#" class="card-link">Another link</a>
+                </div>
+              </div>
+              <div class="card swiper-slide" style="width: 18rem;">
+                <img src="/assets/cards.webp" alt="images" srcset="">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's
+                    content.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">An item</li>
+                  <li class="list-group-item">A second item</li>
+                  <li class="list-group-item">A third item</li>
+                </ul>
+                <div class="card-body">
+                  <a href="#" class="card-link">Card link</a>
+                  <a href="#" class="card-link">Another link</a>
+                </div>
+              </div>
+              <div class="card swiper-slide" style="width: 18rem;">
+                <img src="/assets/cards.webp" alt="images" srcset="">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's
+                    content.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">An item</li>
+                  <li class="list-group-item">A second item</li>
+                  <li class="list-group-item">A third item</li>
+                </ul>
+                <div class="card-body">
+                  <a href="#" class="card-link">Card link</a>
+                  <a href="#" class="card-link">Another link</a>
+                </div>
+              </div>
+              <div class="card swiper-slide" style="width: 18rem;">
+                <img src="/assets/cards.webp" alt="images" srcset="">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's
+                    content.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">An item</li>
+                  <li class="list-group-item">A second item</li>
+                  <li class="list-group-item">A third item</li>
+                </ul>
+                <div class="card-body">
+                  <a href="#" class="card-link">Card link</a>
+                  <a href="#" class="card-link">Another link</a>
+                </div>
+              </div>
+              <div class="card swiper-slide" style="width: 18rem;">
+                <img src="/assets/cards.webp" alt="images" srcset="">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's
+                    content.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">An item</li>
+                  <li class="list-group-item">A second item</li>
+                  <li class="list-group-item">A third item</li>
+                </ul>
+                <div class="card-body">
+                  <a href="#" class="card-link">Card link</a>
+                  <a href="#" class="card-link">Another link</a>
+                </div>
+              </div>
+              <div class="card swiper-slide" style="width: 18rem;">
+                <img src="/assets/cards.webp" alt="images" srcset="">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's
+                    content.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">An item</li>
+                  <li class="list-group-item">A second item</li>
+                  <li class="list-group-item">A third item</li>
+                </ul>
+                <div class="card-body">
+                  <a href="#" class="card-link">Card link</a>
+                  <a href="#" class="card-link">Another link</a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination d-none"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="_ecomm_body">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-lg-6 ">
+            <div class="_body-title font-header font--brown mt-2">GROW YOUR BUSINESS</div>
+            <div class="_body-subtitle font-subheader-one font--brown mt-2 mb-5">We Are Perfect Solution For
+              Your Business</div>
+          </div>
+          <div class="col-md-12 col-lg-6 font-info font--brown mb-4">
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+            doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+            veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+          </div>
+          <div>
+            <div class="row">
+              <div class="col-12 col-lg-4 card_sol mt-2" data-aos="fade-up" data-aos-duration="1000">
+                <div class="_card_img">
+                  <img src="/assets/cards.webp" alt="images" srcset="">
+                </div>
+                <div class="_card_title text-center p-1">
+                  Sed ut perspiciatis unde omnis iste natus
+                  error sit voluptatem accusantium
+                  doloremque laudantium.
+                </div>
+              </div>
+              <div class="col-12 col-lg-4 card_sol mt-2" data-aos="fade-up" data-aos-duration="1000">
+                <div class="_card_img"><img src="/assets/cards.webp" alt="images" srcset=""></div>
+                <div class="_card_title text-center p-1">
+                  Sed ut perspiciatis unde omnis iste natus
+                  error sit voluptatem accusantium
+                  doloremque laudantium.
+                </div>
+              </div>
+              <div class="col-12 col-lg-4 card_sol mt-2" data-aos="fade-up" data-aos-duration="1000">
+                <div class="_card_img">
+                  <img src="/assets/cards.webp" alt="images" srcset="">
+                </div>
+                <div class="_card_title text-center p-1">
+                  Sed ut perspiciatis unde omnis iste natus
+                  error sit voluptatem accusantium
+                  doloremque laudantium.
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+        <div class="_ecomm_pack-details mt-5">
+          <div class="row" data-aos="fade-up" data-aos-duration="1000">
+            <div class="col-12 col-lg-6 mt-3">
+              <img src="assets/goa.jpeg" alt="" srcset="">
+            </div>
+            <div class="col-12 col-lg-6 mt-3">
+              <div class="_pack_title font-header font--brown">ALL IN ONE PACKAGE</div>
+              <div class="_pack_brief font-subheader-one font--brown mb-2">
+                Get More Customer Now &
+                Lets 24 Hours Online
+              </div>
+              <div class="_pack_info font-normal font--brown mt-2 mb-4">Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit. Ut elit tellus,
+                luctus nec ullamcorper mattis, pulvinar dapibus leo.</div>
+              <div class="_pack_checklist">
+                <ul class="font-normal font--brown">
+                  <li>Website Ready</li>
+                  <li>Digital Marketing</li>
+                  <li>All In Audience</li>
+                </ul>
+              </div>
+              <button>Detail Project</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <section class="_ecomm_teams_detail">
+      <div class="card-details">
+        <div class="_child-card"></div>
+      </div>
+      <div class="card-details">
+        <div class="_child-card"></div>
+      </div>
+      <div class="card-details">
+        <div class="_child-card"></div>
+      </div>
+    </section>
+    <section class="_ecomm_tesimonials">
+      <div class="_ecomm_testimonials"></div>
+      <div class="_ecomm_testimonials"></div>
+      <div class="_ecomm_testimonials"></div>
+      <div class="_ecomm_testimonials"></div>
+    </section>
+  </main>
+  <footer id="safFooter" class="_ecomm_footer">
+    <div class="container">
+      <div class="_ecom_foot_mob">
+        <div class="row">
+          <div class="col-3 mt-3">
+            <a href="#" class="navbar-brand"><img src="/assets/logo.png" alt="logo" srcset="" style="height:40px; width: 40px;"></a>
+          </div>
+          <div class="col-9">
+            <div class="row mt-3">
+              <div class="col-6">
+                <div class="_ecomm_input">
+                  <input type="text" name="" id="" placeholder="Email">
+                </div>
+              </div>
+              <div class="col-6 mt-1">
+                <button class="nav-button footer_btn_brown">Subscribe</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="links">
+              Quick Links
+            </div>
+            <ul>
+              <li>Products</li>
+              <li>About us</li>
+              <li>FAQS</li>
+              <li>Contact Us</li>
+              <li>Gallery</li>
+              <li>Blogs</li>
+            </ul>
+          </div>
+          <div class="col-6">
+            <div class="links">
+              Our Company
+            </div>
+            <ul>
+              <li>Contact us</li>
+              <li>Carrer</li>
+              <li>Legal Activity</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="_ecom_foot_desk">
+        <div class="row">
+          <div class="col-lg-4 mt-3">
+            <a href="#" class="navbar-brand"><img src="/assets/logo.png" alt="logo" srcset=""></a>
+            <div class="row mt-3">
+              <div class="col-6">
+                <div class="_ecomm_input">
+                  <input type="text" name="" id="" placeholder="Email">
+                </div>
+              </div>
+              <div class="col-6 mt-1">
+                <button class="nav-button footer_btn_brown">Subscribe</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="links">
+              Quick Links
+            </div>
+            <ul>
+              <li>Products</li>
+              <li>About us</li>
+              <li>FAQS</li>
+              <li>Contact Us</li>
+              <li>Gallery</li>
+              <li>Blogs</li>
+            </ul>
+          </div>
+          <div class="col-lg-4">
+            <div class="links">
+              Our Company
+            </div>
+            <ul>
+              <li>Contact us</li>
+              <li>Carrer</li>
+              <li>Legal Activity</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>    
+  </footer>
+  <button class="stciky-arrow" onclick="scrollToTop()"><img src="assets/arrow.png" alt="" style="width: 50px; height: 50px;"></button>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+    integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script src="/scripts/hamburger.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="/scripts/swiper.js"></script>
+  <script src="scripts/index.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
